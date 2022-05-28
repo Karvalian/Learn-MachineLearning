@@ -61,4 +61,13 @@ More Data
 Reduce the noise level
 Choose a data set with fewer parameters
 
+# Underfitting the Data
+encountered when the model is very simple.
 
+# Solutions for Underfitting
+Select the model with more parameters, more powerful.
+Feature Engineering 
+Reduce the limits on your model
+
+# Deeplearning with Pytorch
+Data Source -(Sample Tensors)> MultiProcessDataLoading -> Batch Tensor -> (UntrainedModel) -> Training Loop(Distributed Training on multiple servers/gpus) -> Trained Model -> Production(ONNX, JIT, TORCHSCRIPT) -> CLOUD, Production Server
