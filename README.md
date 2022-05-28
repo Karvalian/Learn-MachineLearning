@@ -38,5 +38,27 @@ not enough features in data -> Machine Learning System does not learn
 you get the point.
 
 # Feature Engineering
+Selection of features: selecting the most useful features
+Extraction of features: combining existing features to provide mroe useful features
+Creation of new features: creation of new features, based on data.
+
+# Testing
+Divide data into 2 sets
+Training set (Data that you use to train your model)
+Testing set (Data that you use to test your model)
+Generalized error(GR) is the rate of error of your model on the test set.
+GR good = Model good
+Recommended Divisions
+80% data == training
+20% data == testing
+
+# Overfitting the Data
+Machines work well with the training data, but they can not generalize it properly.
+this is called Overfitting, it occurs when the model is too complex for the training data that is given to it.
+
+# Solutions for Overfitting
+More Data
+Reduce the noise level
+Choose a data set with fewer parameters
 
 
