@@ -1,4 +1,5 @@
-Machine Learning
+#Machine Learning
+Best trick to learn machine learning is just train a lot of data sets and create a lot of models, trust me It works better for me than reading books about it
 # Types of Systems of Machine Learning
 Supervised
 Unsupervised
@@ -41,7 +42,7 @@ you get the point.
 Selection of features: selecting the most useful features
 Extraction of features: combining existing features to provide mroe useful features
 Creation of new features: creation of new features, based on data.
-
+Features == transformations on input data that facilitate a downstream algorithm like a classifier.
 # Testing
 Divide data into 2 sets
 Training set (Data that you use to train your model)
@@ -71,3 +72,5 @@ Reduce the limits on your model
 
 # Deeplearning with Pytorch
 Data Source -(Sample Tensors)> MultiProcessDataLoading -> Batch Tensor -> (UntrainedModel) -> Training Loop(Distributed Training on multiple servers/gpus) -> Trained Model -> Production(ONNX, JIT, TORCHSCRIPT) -> CLOUD, Production Server
+Before the last decade, Machine Learning == Heavily Reliant on "Feature Engineering" (Discussed Above).
+ 

@@ -1,4 +1,5 @@
-from sklearn.datasets import fetch_openml
+from torchvision import models
 
-mn=fetch_('MNIST orignal')
-print(mn)
+alexnet = models.AlexNet()
+resnet = models.resnet101(pretrained=True)
+
